@@ -1,0 +1,15 @@
+{
+  "name": "sabik",
+  "version": "0.0.1",
+  "description": "Sabik is the first Web application framework that is serverless, It's purely runs on Cloud and lambda functions.",
+  "main": "index.js",
+  "bin" : { "sabik" : "./commands/sabik.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdullah Bashir <mabdullah353@gmail.com> (https://github.com/forkgeeks)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
